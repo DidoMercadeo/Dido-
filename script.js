@@ -3,7 +3,7 @@ let banderas = ["atencion-al-cliente.png", "fase-2.png", "fase-3.png", "fase-4.p
 
 
 //arreglo que guardara la opcion correcta
-let correcta = [1,2,1,1,2,3,2,1];
+let correcta = [1,1,2,0,1,1,1,2];
 
 //arreglo que guardara los paises a mostrar en cada jugada
 let opciones= [];
