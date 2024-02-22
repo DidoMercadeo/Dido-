@@ -12,7 +12,7 @@ let opciones= [];
 opciones.push(["Contacto", "Acercamiento", "Asesoramiento", "Comunicación",]);
 opciones.push(["Dar precios claros y completos", "Mencionar promociones", "Formular medicamente sin autorización", "Direccionar a los clientes a los servicios",]);
 opciones.push(["Nombre, mascota", "Nombre, dirección", "Nombre y dirección de entrega", "Tipo de mascota",]);
-opciones.push(["Productos y cantidades. ", "Productos, tamaños, cantidades", "tamaños, cantidades", "Informar al cliente sobre la compra",]);
+opciones.push(["Productos y cantidades", "Productos, tamaños, cantidades", "tamaños, cantidades", "Informar al cliente sobre la compra",]);
 opciones.push(["Adios", "Bye, hasta luego", "Esperamos tenerlo de vuelta", "Colgar",]);
 
 //variable que guarda la posicion actual
