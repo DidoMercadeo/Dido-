@@ -1,19 +1,21 @@
 //cargo en un arreglo las imagenes de las banderas. Este sera el orden que se mostraran
-let banderas = ["atencion-al-cliente.png", "fase-2.png", "fase-3.png", "fase-4.png", "fase-5.png"];
-let preguntas = ["asfsafasfasfasfsaf", "hjkghk", "fhj", "fondo-bandera-brasil.jpg", "fondo-bandera-francia.jpg"];
+let banderas = ["atencion-al-cliente.png", "fase-2.png", "fase-3.png", "fase-4.png", "fase-5.png", "atencion-al-cliente.png", "fase-2.png", "fase-3.png"];
 
 
 //arreglo que guardara la opcion correcta
-let correcta = [1,2,1,1,2];
+let correcta = [1,2,1,1,2,3,2,1];
 
 //arreglo que guardara los paises a mostrar en cada jugada
 let opciones= [];
 //cargo en el arreglo opciones las opciones a mostrar en cada jugada
 opciones.push(["Contacto", "Acercamiento", "Asesoramiento", "Comunicación",]);
-opciones.push(["Dar precios claros y completos", "Mencionar promociones", "Formular medicamente sin autorización", "Direccionar a los clientes a los servicios",]);
-opciones.push(["Nombre, mascota", "Nombre, dirección", "Nombre y dirección de entrega", "Tipo de mascota",]);
-opciones.push(["Productos y cantidades", "Productos, tamaños, cantidades", "tamaños, cantidades", "Informar al cliente sobre la compra",]);
-opciones.push(["Adios", "Bye, hasta luego", "Esperamos tenerlo de vuelta", "Colgar",]);
+opciones.push(["Bienvenido a Dido Veterinaria. ¿En qué le puedo ayudar?", "Buenos días, tardes o noches. Bienvenido a Dido Veterinaria", "Buenos días, tardes o noches. ¿En qué le puedo ayudar?", "Hola, ¿En qué le puedo ayudar?",]);
+opciones.push(["Dar precios claros y completos", "Mencionar Promociones", "Formular medicamente sin autorización", "Direccionar a los clientes a adquirir los servicios",]);
+opciones.push(["Actualización de datos", "Renovación de información", "Reingreso de datos", "Registro de datos",]);
+opciones.push(["Nombre, Numero de identificación, dirección, tipo de mascotas", "Número de identificación, teléfono, correo electrónico, nombre, dirección, fecha de nacimiento, tipo y nombre de mascota", "Número de identificación, teléfono, nombre, dirección y tipo de mascotas", "Número de identificación, teléfono, correo electrónico, nombre, dirección, y tipo de mascotas",]);
+opciones.push(["Nombre de los productos y cantidades", "Nombre de los productos, tamaños, cantidades", "Tamaños, cantidades", "Informar al cliente sobre la compra",]);
+opciones.push(["Beneficios", "Promoción", "Descuentos", "Rebajas",]);
+opciones.push(["Adiós", "Bye, hasta luego", "Esperamos tenerlo de vuelta", "Colgar",]);
 
 //variable que guarda la posicion actual
 let posActual = 0;
