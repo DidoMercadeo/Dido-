@@ -77,14 +77,14 @@ footer{
     width: 100%;
 }
 .opciones{
-    max-width: 400px;
+    max-width: 1400px;
     margin: auto;
 }.opcion{
     display: flex;
     position: relative;
     align-items: center;
-    max-width: 400px;
-    margin: 30px auto;
+    max-width: 1400px;
+    margin: 80px auto;
     cursor: pointer;
 }
 .opcion .letra{
