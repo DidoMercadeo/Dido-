@@ -14,7 +14,7 @@ opciones.push(["Dar precios claros y completos", "Mencionar Promociones", "Formu
 opciones.push(["Actualización de datos", "Renovación de información", "Reingreso de datos", "Registro de datos",]);
 opciones.push(["Nombre, Numero de identificación, dirección, tipo de mascotas", "Número de identificación, teléfono, correo electrónico, nombre, dirección, fecha de nacimiento, tipo y nombre de mascota", "Número de identificación, teléfono, nombre, dirección y tipo de mascotas", "Número de identificación, teléfono, correo electrónico, nombre, dirección, y tipo de mascotas",]);
 opciones.push(["Nombre de los productos y cantidades", "Nombre de los productos, tamaños, cantidades", "Tamaños, cantidades", "Informar al cliente sobre la compra",]);
-opciones.push(["Beneficios", "Promoción", "Descuentos", "Rebajas",]);
+opciones.push(["Beneficios...", "Promoción...", "Descuentos...", "Rebajas...",]);
 opciones.push(["Adiós", "Bye, hasta luego", "Esperamos tenerlo de vuelta", "Colgar",]);
 
 //variable que guarda la posicion actual
